@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const resumeFileId = "1zvCfpA4jQU7UgGk3iPni7X1pr9T3nl-L";
+const resumeFileId = "1D2NGDS4ySKqvwNtoEEb82fx4HResMQlr";
 const resumePreviewUrl = `https://drive.google.com/file/d/${resumeFileId}/preview`;
 const resumeDownloadUrl = `https://drive.google.com/uc?export=download&id=${resumeFileId}`;
 
