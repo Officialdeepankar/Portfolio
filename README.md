@@ -1,53 +1,89 @@
-# Personal Developer Portfolio 🚀
+# Deepankar Singh | AI Engineer
 
-[![Site preview](/public/assets/thumbnail.png)](https://figma-portfolio-ten.vercel.app/)
 
-Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a Software Engineer and UI/UX Designer. Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). It not only provides a visually appealing representation of my work but also ensures optimal performance. View the [live site](https://figma-portfolio-ten.vercel.app/).
 
-# Features 🎉
+Personal portfolio for **Deepankar Singh**, an AI-driven full-stack developer based in Hyderabad, India.
 
-The whole [portfolio](https://figma-portfolio-ten.vercel.app/) is a React-based single page app built with Next.js in TypeScript, using only statically generated pages.
+![Deepankar Singh](public/assets/tumbnail1.png)
 
-- **Modern Design**: Beautiful, dark-themed UI designed in Figma with purple gradient accents
-- **Animated Typing Effect**: Dynamic text animation in the hero section that cycles through roles
-- **Responsive Layout**: Fully responsive design that works seamlessly on all devices
-- **Performance Optimized**: Built with Next.js 16 for optimal performance and SEO
-- **Project Showcase**: Featured projects section with detailed descriptions and links
-- **Smooth Animations**: Engaging user experience with smooth transitions and effects
-- **Analytics Integration**: Vercel Analytics for tracking website performance
+I build scalable microservices, real-time event-driven systems, and AI agent applications using Java, Spring Boot, Apache Kafka, Python, LangChain, and LangGraph. I also develop responsive frontend experiences with TypeScript and React.
 
-# Fonts ✍🏻
+## Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load [Poppins](https://fonts.google.com/specimen/Poppins), a custom Google Font with multiple weights (300-900).
+### AI Engineer, Trianz
 
-# Project images 🖼️
+**August 2025 - Present**
 
-All project images live under `public/projects` and are referenced in the `Projects.tsx` component. The assets folder contains all icons, images, and other media files used throughout the portfolio.
+- Built a real-time data streaming pipeline with Apache Kafka and Spring Boot, reducing downstream data transfer latency by 35%.
+- Replaced Trino with Debezium for change data capture and optimized Kafka producers and consumers, improving relational database ingestion and migration speed by 70%.
+- Developed high-performance FastAPI services with response caching, reducing API latency by 40%.
+- Built responsive TypeScript and React interfaces integrated with backend APIs.
+- Expanded Java unit test coverage with JUnit and SonarQube.
+- Led client demos and delivered high-priority features under tight deadlines.
 
-# ✨ Development
+## Education
+
+**Master of Computer Applications (MCA)**
+National Institute of Technology, Bhopal (NIT Bhopal)
+August 2022 - June 2025
+
+## Skills
+
+**Languages:** Java, Python, JavaScript, TypeScript, C, C++
+**Backend:** Spring Boot, Microservices, Hibernate, FastAPI, Spring Security
+**AI:** LangChain, LangGraph, LLMs, RAG, MCP Server, LangSmith
+**Data and messaging:** Apache Kafka, Debezium, MongoDB, Redis, MySQL, PostgreSQL
+**Frontend:** React, React.js
+**Cloud and engineering:** Docker, Kubernetes, JUnit, SonarQube, Data Structures, Algorithms, LLD, HLD
+
+## Projects
+
+### SHOPY | Full-Stack E-commerce Platform
+
+- Developed a scalable MERN-stack e-commerce application with product discovery, cart management, and order workflows.
+- Integrated JWT authentication, Redux Toolkit for global state management, and secure PayPal payment processing.
+
+### SocialSphere | Social Networking Application
+
+- Engineered a responsive social networking application with real-time content posting, interactive feeds, and profile management.
+- Built REST APIs with Spring Boot and MySQL, secured with JWT authentication, and paired them with a React and Tailwind CSS frontend.
+
+## Training
+
+- React Basics, Meta
+- Advanced Java
+- Complete Agentic AI Bootcamp with LangGraph and LangChain
+
+## Achievements
+
+- Solved 300+ coding problems on LeetCode and GeeksforGeeks.
+- Earned a 5-star HackerRank rating for problem-solving challenges.
+- Cleared the second round of the CodeRush Hackathon hosted by Indus Valley Partners.
+
+## Portfolio Development
+
+This portfolio is built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). It includes responsive sections for my profile, experience, projects, and resume.
+
+## Run Locally
 
 ```bash
-git clone git@github.com:ibrahimmemonn/Figma_Portfolio.git
-
-cd Figma_Portfolio/
-
-npm i
-
+npm install
 npm run dev
 ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser. Edit `app/page.tsx` or the components in `app/components/` to update the portfolio.
 
-# 🚚 Deployment
+## Production Build
 
-Every branch or Pull Request is automatically deployed by [Vercel](https://vercel.com/) with their GitHub integration, where the `main` branch is automatically aliased to [figma-portfolio-ten.vercel.app](https://figma-portfolio-ten.vercel.app/). A link to a preview deployment will appear under each Pull Request.
+```bash
+npm run build
+npm start
+```
 
-# 🏛 Licenses
+## Render Deployment
 
-© Copyright 2025 Ibrahim Memon
+Deploy this repository as a **Web Service** on Render using:
 
-Don't care if you fork & play with it, but you're not allowed to publish anything from it as a whole without my written permission. Also please be aware, the combination of typography, colors & layout makes up my brand identity. So please don't just clone everything, but rather do a remix!
-
----
-
-⭐ If you found this project helpful or interesting, please consider giving it a star!
+- **Build command:** `npm ci && npm run build`
+- **Start command:** `npm start`
+- **Branch:** `main`
